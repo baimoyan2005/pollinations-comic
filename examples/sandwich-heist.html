@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Great Sandwich Heist</title><style>
+:root{--ink:#161b22;--paper:#fffdf7;--accent:#e4572e;--line:#161b22}
+*{box-sizing:border-box}
+body{margin:0;background:#e9edf2;color:var(--ink);
+  font-family:Comic Sans MS,"Segoe UI",system-ui,sans-serif;padding:24px}
+.page{max-width:900px;margin:0 auto;background:var(--paper);
+  box-shadow:0 20px 60px rgba(0,0,0,.18);padding:26px 26px 34px;border-radius:4px}
+header{display:flex;align-items:baseline;justify-content:space-between;
+  gap:12px;border-bottom:4px solid var(--line);padding-bottom:10px;margin-bottom:18px;flex-wrap:wrap}
+h1{font-size:clamp(22px,4vw,38px);margin:0;letter-spacing:-.5px}
+.style-tag{font-size:12px;color:#6b7280;font-weight:bold;text-transform:uppercase;letter-spacing:1px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.panel{margin:0;position:relative}
+.frame{position:relative;border:3px solid var(--line);border-radius:6px;overflow:hidden;
+  aspect-ratio:16/10;background:#f2f2ee}
+.frame img{width:100%;height:100%;object-fit:cover;display:block}
+.placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;color:#9aa0aa;font-weight:bold;gap:4px}
+.placeholder small{font-weight:normal}
+.bubble{position:absolute;left:8%;top:8%;max-width:80%;background:#fff;border:3px solid var(--line);
+  border-radius:50%;padding:12px 16px;font-size:clamp(12px,2vw,17px);line-height:1.25;
+  text-align:center;box-shadow:2px 3px 0 rgba(0,0,0,.12)}
+.caption{margin-top:6px;font-size:13px;color:#4b5563;font-style:italic;line-height:1.4}
+.num{position:absolute;right:-6px;top:-6px;width:26px;height:26px;border-radius:50%;
+  background:var(--accent);color:#fff;font-weight:bold;font-size:14px;display:grid;place-items:center;
+  border:2px solid #fff}
+footer{margin-top:20px;padding-top:12px;border-top:2px dashed #d1d5db;text-align:center;
+  font-size:12px;color:#6b7280}
+footer a{color:var(--accent);text-decoration:none;font-weight:bold}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+@media print{body{background:#fff;padding:0}.page{box-shadow:none;max-width:none}
+  .grid{grid-template-columns:repeat(2,1fr)}.panel{break-inside:avoid}}
+</style></head><body>
+<main class="page">
+<header><h1>The Great Sandwich Heist</h1><span class="style-tag">bold comic ink</span></header>
+<section class="grid">
+    <figure class="panel">
+      <div class="frame"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2Y0YTI2MSIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+QiDwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+S2l0Y2hlbiwgMDM6MDA8L3RleHQ+PC9zdmc+" alt="panel 1"><div class="bubble">I have a plan.</div></div>
+      <div class="caption">Elsewhere, a cat had a plan.</div>
+      <span class="num">1</span>
+    </figure>
+    <figure class="panel">
+      <div class="frame"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzJhOWQ4ZiIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+lqjwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+VGhlIHNhbmR3aWNoPC90ZXh0Pjwvc3ZnPg==" alt="panel 2"><div class="bubble">Target acquired.</div></div>
+      <div class="caption">The prize sat unguarded.</div>
+      <span class="num">2</span>
+    </figure>
+    <figure class="panel">
+      <div class="frame"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2U3NmY1MSIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+SqDwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+R2V0YXdheTwvdGV4dD48L3N2Zz4=" alt="panel 3"><div class="bubble">Mission accomplished!</div></div>
+      <div class="caption">And then, it was gone.</div>
+      <span class="num">3</span>
+    </figure>
+    <figure class="panel">
+      <div class="frame"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzI2NDY1MyIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+YvDwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RXZpZGVuY2U/PC90ZXh0Pjwvc3ZnPg==" alt="panel 4"><div class="bubble">...What sandwich?</div></div>
+      <div class="caption">A clean getaway, mostly.</div>
+      <span class="num">4</span>
+    </figure></section>
+<footer>Made with <a href="https://pollinations.ai/?ref=badge">pollinations.ai</a> &middot; a Pollinations Comic</footer>
+</main></body></html>
