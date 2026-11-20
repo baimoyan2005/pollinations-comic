@@ -1,0 +1,26 @@
+{
+  "title": "The Great Sandwich Heist",
+  "style": "bold comic ink",
+  "panels": [
+    {
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2Y0YTI2MSIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+QiDwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+S2l0Y2hlbiwgMDM6MDA8L3RleHQ+PC9zdmc+",
+      "speech": "I have a plan.",
+      "caption": "Elsewhere, a cat had a plan."
+    },
+    {
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzJhOWQ4ZiIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+lqjwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+VGhlIHNhbmR3aWNoPC90ZXh0Pjwvc3ZnPg==",
+      "speech": "Target acquired.",
+      "caption": "The prize sat unguarded."
+    },
+    {
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2U3NmY1MSIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+SqDwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+R2V0YXdheTwvdGV4dD48L3N2Zz4=",
+      "speech": "Mission accomplished!",
+      "caption": "And then, it was gone."
+    },
+    {
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzI2NDY1MyIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjE3NSIgcj0iOTUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsLjM1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMjEwIiBmb250LXNpemU9IjExMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+YvDwvdGV4dD48cmVjdCB4PSIwIiB5PSIzNjAiIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMCwwLDAsLjI1KSIvPjx0ZXh0IHg9IjMyMCIgeT0iMzg4IiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+RXZpZGVuY2U/PC90ZXh0Pjwvc3ZnPg==",
+      "speech": "...What sandwich?",
+      "caption": "A clean getaway, mostly."
+    }
+  ]
+}
